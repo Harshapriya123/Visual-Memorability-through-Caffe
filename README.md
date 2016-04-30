@@ -16,3 +16,21 @@ Score the memorability of pictures by Running LaMem (image process model) throug
 * Convolutional Neural Network and Gradient Descent
 * Loss Functions and Optimization
 * Activation Functions and Weight Regularization
+
+> Mini-batch SGD: 
+* Sample a batch of data
+* Forward prop it through the graph, get loss
+* Backprop to calculate the gradients
+* Update the parameters using the gradient
+
+> Convoluntion Layer: COnvolvve the filter with the image and convolve(slide) over all spatial locations
+
+> Pooling Layer: make the representations smaller and more manageable and operate over each activation map independently
+
+> Fully Connected Layer(FC layer): contain neurons that connect to the entire input volume, as in ordinary Neural Networks
+### Summary
+- ConNets stack CONV,POOL, FC layers
+- Trend towards smaller filters and deeper architectures
+- Trend towards getting rid of POOL/FC layers(just CONV)
+- Trend towards smaller 
+
